@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		156B05C8F172CA9FE28620CD /* Pods_HandwritingTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F4DB1FBCFC895EF04A1C48 /* Pods_HandwritingTimerTests.framework */; };
+		5700B38A97A9F2409A57857D /* Pods_HandwritingTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23ABC2429F27F46B0CC188E /* Pods_HandwritingTimer.framework */; };
 		7B889462200CF23600B9889E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889461200CF23600B9889E /* AppDelegate.swift */; };
 		7B889464200CF23600B9889E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889463200CF23600B9889E /* ViewController.swift */; };
 		7B889467200CF23600B9889E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B889465200CF23600B9889E /* Main.storyboard */; };
 		7B889469200CF23600B9889E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B889468200CF23600B9889E /* Assets.xcassets */; };
 		7B88946C200CF23600B9889E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B88946A200CF23600B9889E /* LaunchScreen.storyboard */; };
 		7B889477200CF23700B9889E /* HandwritingTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889476200CF23700B9889E /* HandwritingTimerTests.swift */; };
+		7B889483200CF95E00B9889E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B889482200CF95E00B9889E /* RxSwift.framework */; };
+		7B889486200CFC5400B9889E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B889485200CFC5400B9889E /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004F41D68F043B3594A43D55 /* Pods-HandwritingTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		77F4DB1FBCFC895EF04A1C48 /* Pods_HandwritingTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwritingTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88945E200CF23600B9889E /* HandwritingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandwritingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B889461200CF23600B9889E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B889463200CF23600B9889E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,12 @@
 		7B889472200CF23700B9889E /* HandwritingTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandwritingTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B889476200CF23700B9889E /* HandwritingTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwritingTimerTests.swift; sourceTree = "<group>"; };
 		7B889478200CF23700B9889E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B889482200CF95E00B9889E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		7B889485200CFC5400B9889E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BBDF413EBBDE3BF694344D10 /* Pods-HandwritingTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C23ABC2429F27F46B0CC188E /* Pods_HandwritingTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwritingTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07650893BAE8A18672EFB45 /* Pods-HandwritingTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		D81E3D4D9912F7ED63FFF801 /* Pods-HandwritingTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B889486200CFC5400B9889E /* AudioToolbox.framework in Frameworks */,
+				7B889483200CF95E00B9889E /* RxSwift.framework in Frameworks */,
+				5700B38A97A9F2409A57857D /* Pods_HandwritingTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +65,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156B05C8F172CA9FE28620CD /* Pods_HandwritingTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385E196EE4135050216A4FBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D07650893BAE8A18672EFB45 /* Pods-HandwritingTimer.debug.xcconfig */,
+				D81E3D4D9912F7ED63FFF801 /* Pods-HandwritingTimer.release.xcconfig */,
+				BBDF413EBBDE3BF694344D10 /* Pods-HandwritingTimerTests.debug.xcconfig */,
+				004F41D68F043B3594A43D55 /* Pods-HandwritingTimerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7B889455200CF23600B9889E = {
 			isa = PBXGroup;
 			children = (
 				7B889460200CF23600B9889E /* HandwritingTimer */,
 				7B889475200CF23700B9889E /* HandwritingTimerTests */,
 				7B88945F200CF23600B9889E /* Products */,
+				7B889481200CF95D00B9889E /* Frameworks */,
+				385E196EE4135050216A4FBA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +125,17 @@
 			path = HandwritingTimerTests;
 			sourceTree = "<group>";
 		};
+		7B889481200CF95D00B9889E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B889485200CFC5400B9889E /* AudioToolbox.framework */,
+				7B889482200CF95E00B9889E /* RxSwift.framework */,
+				C23ABC2429F27F46B0CC188E /* Pods_HandwritingTimer.framework */,
+				77F4DB1FBCFC895EF04A1C48 /* Pods_HandwritingTimerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +143,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B88947B200CF23700B9889E /* Build configuration list for PBXNativeTarget "HandwritingTimer" */;
 			buildPhases = (
+				8BA02BFFD4D9B99896DFD937 /* [CP] Check Pods Manifest.lock */,
 				7B88945A200CF23600B9889E /* Sources */,
 				7B88945B200CF23600B9889E /* Frameworks */,
 				7B88945C200CF23600B9889E /* Resources */,
+				7B889484200CF96E00B9889E /* ShellScript */,
+				3527EA3EE0ABAA2FF3560883 /* [CP] Embed Pods Frameworks */,
+				079B22C0E7D92E7E1D229AB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B88947E200CF23700B9889E /* Build configuration list for PBXNativeTarget "HandwritingTimerTests" */;
 			buildPhases = (
+				9F754410C0FBCBD8B5501CBF /* [CP] Check Pods Manifest.lock */,
 				7B88946E200CF23700B9889E /* Sources */,
 				7B88946F200CF23700B9889E /* Frameworks */,
 				7B889470200CF23700B9889E /* Resources */,
+				F1C2DB55295F22C01208567E /* [CP] Embed Pods Frameworks */,
+				F95FFAE3469FC12662C06310 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +240,124 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079B22C0E7D92E7E1D229AB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3527EA3EE0ABAA2FF3560883 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ACEDrawingView/ACEDrawingView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACEDrawingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B889484200CF96E00B9889E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		8BA02BFFD4D9B99896DFD937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandwritingTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F754410C0FBCBD8B5501CBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandwritingTimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C2DB55295F22C01208567E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95FFAE3469FC12662C06310 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B88945A200CF23600B9889E /* Sources */ = {
@@ -290,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +506,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -351,34 +516,47 @@
 		};
 		7B88947C200CF23700B9889E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07650893BAE8A18672EFB45 /* Pods-HandwritingTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HandwritingTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = murakamiii.HandwritingTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7B88947D200CF23700B9889E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81E3D4D9912F7ED63FFF801 /* Pods-HandwritingTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HandwritingTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = murakamiii.HandwritingTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		7B88947F200CF23700B9889E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDF413EBBDE3BF694344D10 /* Pods-HandwritingTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +573,7 @@
 		};
 		7B889480200CF23700B9889E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004F41D68F043B3594A43D55 /* Pods-HandwritingTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
