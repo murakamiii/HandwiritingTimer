@@ -17,6 +17,7 @@
 		7B889477200CF23700B9889E /* HandwritingTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889476200CF23700B9889E /* HandwritingTimerTests.swift */; };
 		7B889483200CF95E00B9889E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B889482200CF95E00B9889E /* RxSwift.framework */; };
 		7B889486200CFC5400B9889E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B889485200CFC5400B9889E /* AudioToolbox.framework */; };
+		7B889488200D004000B9889E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B889487200D004000B9889E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7B889478200CF23700B9889E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B889482200CF95E00B9889E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		7B889485200CFC5400B9889E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7B889487200D004000B9889E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BBDF413EBBDE3BF694344D10 /* Pods-HandwritingTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C23ABC2429F27F46B0CC188E /* Pods_HandwritingTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwritingTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07650893BAE8A18672EFB45 /* Pods-HandwritingTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				7B889468200CF23600B9889E /* Assets.xcassets */,
 				7B88946A200CF23600B9889E /* LaunchScreen.storyboard */,
 				7B88946D200CF23600B9889E /* Info.plist */,
+				7B889487200D004000B9889E /* Settings.bundle */,
 			);
 			path = HandwritingTimer;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B889488200D004000B9889E /* Settings.bundle in Resources */,
 				7B88946C200CF23600B9889E /* LaunchScreen.storyboard in Resources */,
 				7B889469200CF23600B9889E /* Assets.xcassets in Resources */,
 				7B889467200CF23600B9889E /* Main.storyboard in Resources */,
@@ -520,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFZF43X7V9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -540,6 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFZF43X7V9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",

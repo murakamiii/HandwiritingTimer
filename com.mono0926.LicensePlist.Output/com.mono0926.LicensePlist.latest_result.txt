@@ -1,0 +1,14 @@
+name: ACEDrawingView, nameSpecified: 
+body: 
+                   …
+version: 2.2.1
+
+name: PopupDialog, nameSpecified: 
+body: Copyright (c) 2016 O…
+version: 0.6.2
+
+name: RxSwift, nameSpecified: , owner: ReactiveX, version: 4.1.1
+
+add-version-numbers: false
+
+LicensePlist Version: 1.8.2
