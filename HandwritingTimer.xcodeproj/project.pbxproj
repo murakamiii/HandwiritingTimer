@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B889462200CF23600B9889E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889461200CF23600B9889E /* AppDelegate.swift */; };
+		7B889464200CF23600B9889E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889463200CF23600B9889E /* ViewController.swift */; };
+		7B889467200CF23600B9889E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B889465200CF23600B9889E /* Main.storyboard */; };
+		7B889469200CF23600B9889E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B889468200CF23600B9889E /* Assets.xcassets */; };
+		7B88946C200CF23600B9889E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B88946A200CF23600B9889E /* LaunchScreen.storyboard */; };
+		7B889477200CF23700B9889E /* HandwritingTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889476200CF23700B9889E /* HandwritingTimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B889473200CF23700B9889E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B889456200CF23600B9889E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B88945D200CF23600B9889E;
+			remoteInfo = HandwritingTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B88945E200CF23600B9889E /* HandwritingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandwritingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B889461200CF23600B9889E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B889463200CF23600B9889E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B889466200CF23600B9889E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B889468200CF23600B9889E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B88946B200CF23600B9889E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B88946D200CF23600B9889E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B889472200CF23700B9889E /* HandwritingTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandwritingTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B889476200CF23700B9889E /* HandwritingTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandwritingTimerTests.swift; sourceTree = "<group>"; };
+		7B889478200CF23700B9889E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B88945B200CF23600B9889E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B88946F200CF23700B9889E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B889455200CF23600B9889E = {
+			isa = PBXGroup;
+			children = (
+				7B889460200CF23600B9889E /* HandwritingTimer */,
+				7B889475200CF23700B9889E /* HandwritingTimerTests */,
+				7B88945F200CF23600B9889E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B88945F200CF23600B9889E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B88945E200CF23600B9889E /* HandwritingTimer.app */,
+				7B889472200CF23700B9889E /* HandwritingTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B889460200CF23600B9889E /* HandwritingTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7B889461200CF23600B9889E /* AppDelegate.swift */,
+				7B889463200CF23600B9889E /* ViewController.swift */,
+				7B889465200CF23600B9889E /* Main.storyboard */,
+				7B889468200CF23600B9889E /* Assets.xcassets */,
+				7B88946A200CF23600B9889E /* LaunchScreen.storyboard */,
+				7B88946D200CF23600B9889E /* Info.plist */,
+			);
+			path = HandwritingTimer;
+			sourceTree = "<group>";
+		};
+		7B889475200CF23700B9889E /* HandwritingTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B889476200CF23700B9889E /* HandwritingTimerTests.swift */,
+				7B889478200CF23700B9889E /* Info.plist */,
+			);
+			path = HandwritingTimerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B88945D200CF23600B9889E /* HandwritingTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B88947B200CF23700B9889E /* Build configuration list for PBXNativeTarget "HandwritingTimer" */;
+			buildPhases = (
+				7B88945A200CF23600B9889E /* Sources */,
+				7B88945B200CF23600B9889E /* Frameworks */,
+				7B88945C200CF23600B9889E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandwritingTimer;
+			productName = HandwritingTimer;
+			productReference = 7B88945E200CF23600B9889E /* HandwritingTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B889471200CF23700B9889E /* HandwritingTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B88947E200CF23700B9889E /* Build configuration list for PBXNativeTarget "HandwritingTimerTests" */;
+			buildPhases = (
+				7B88946E200CF23700B9889E /* Sources */,
+				7B88946F200CF23700B9889E /* Frameworks */,
+				7B889470200CF23700B9889E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B889474200CF23700B9889E /* PBXTargetDependency */,
+			);
+			name = HandwritingTimerTests;
+			productName = HandwritingTimerTests;
+			productReference = 7B889472200CF23700B9889E /* HandwritingTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B889456200CF23600B9889E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MURAKAMI;
+				TargetAttributes = {
+					7B88945D200CF23600B9889E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7B889471200CF23700B9889E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B88945D200CF23600B9889E;
+					};
+				};
+			};
+			buildConfigurationList = 7B889459200CF23600B9889E /* Build configuration list for PBXProject "HandwritingTimer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B889455200CF23600B9889E;
+			productRefGroup = 7B88945F200CF23600B9889E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B88945D200CF23600B9889E /* HandwritingTimer */,
+				7B889471200CF23700B9889E /* HandwritingTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B88945C200CF23600B9889E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B88946C200CF23600B9889E /* LaunchScreen.storyboard in Resources */,
+				7B889469200CF23600B9889E /* Assets.xcassets in Resources */,
+				7B889467200CF23600B9889E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B889470200CF23700B9889E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B88945A200CF23600B9889E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B889464200CF23600B9889E /* ViewController.swift in Sources */,
+				7B889462200CF23600B9889E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B88946E200CF23700B9889E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B889477200CF23700B9889E /* HandwritingTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B889474200CF23700B9889E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B88945D200CF23600B9889E /* HandwritingTimer */;
+			targetProxy = 7B889473200CF23700B9889E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B889465200CF23600B9889E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B889466200CF23600B9889E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B88946A200CF23600B9889E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B88946B200CF23600B9889E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B889479200CF23700B9889E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B88947A200CF23700B9889E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B88947C200CF23700B9889E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandwritingTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = murakamiii.HandwritingTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B88947D200CF23700B9889E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandwritingTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = murakamiii.HandwritingTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B88947F200CF23700B9889E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandwritingTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = murakamiii.HandwritingTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandwritingTimer.app/HandwritingTimer";
+			};
+			name = Debug;
+		};
+		7B889480200CF23700B9889E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HandwritingTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = murakamiii.HandwritingTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandwritingTimer.app/HandwritingTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B889459200CF23600B9889E /* Build configuration list for PBXProject "HandwritingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B889479200CF23700B9889E /* Debug */,
+				7B88947A200CF23700B9889E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B88947B200CF23700B9889E /* Build configuration list for PBXNativeTarget "HandwritingTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B88947C200CF23700B9889E /* Debug */,
+				7B88947D200CF23700B9889E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B88947E200CF23700B9889E /* Build configuration list for PBXNativeTarget "HandwritingTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B88947F200CF23700B9889E /* Debug */,
+				7B889480200CF23700B9889E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B889456200CF23600B9889E /* Project object */;
+}
