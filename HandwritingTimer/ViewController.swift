@@ -31,15 +31,24 @@ class ViewController: UIViewController {
         seconds10digitsView.backgroundColor = .white
         seconds1digitsView.backgroundColor = .white
 
+        startButton.addTarget(self, action: #selector(tapStart), for: .touchUpInside)
+        pauseButton.addTarget(self, action: #selector(tapPause), for: .touchUpInside)
+        resetButton.addTarget(self, action: #selector(tapReset), for: .touchUpInside)
+
 //        view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!).withAlphaComponent(0.1)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func tapStart() {
+    
+    }
+    
+    @objc func tapPause() {
+        
     }
 
-
+    @objc func tapReset() {
+        
+    }
 }
 
 extension ViewController: ACEDrawingViewDelegate {

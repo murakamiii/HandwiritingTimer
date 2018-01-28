@@ -19,6 +19,11 @@
 		7B889483200CF95E00B9889E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B889482200CF95E00B9889E /* RxSwift.framework */; };
 		7B889486200CFC5400B9889E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B889485200CFC5400B9889E /* AudioToolbox.framework */; };
 		7B889488200D004000B9889E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B889487200D004000B9889E /* Settings.bundle */; };
+		7B88948B201DF81700B9889E /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88948A201DF81700B9889E /* TimerModel.swift */; };
+		7B88948C201DF81700B9889E /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88948A201DF81700B9889E /* TimerModel.swift */; };
+		7B88948E201DF96E00B9889E /* TimerModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88948D201DF96E00B9889E /* TimerModelTests.swift */; };
+		7B889490201E138E00B9889E /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88948F201E138E00B9889E /* TimerViewModel.swift */; };
+		7B889491201E138E00B9889E /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B88948F201E138E00B9889E /* TimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,9 @@
 		7B889482200CF95E00B9889E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		7B889485200CFC5400B9889E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7B889487200D004000B9889E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		7B88948A201DF81700B9889E /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		7B88948D201DF96E00B9889E /* TimerModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModelTests.swift; sourceTree = "<group>"; };
+		7B88948F201E138E00B9889E /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		BBDF413EBBDE3BF694344D10 /* Pods-HandwritingTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C23ABC2429F27F46B0CC188E /* Pods_HandwritingTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwritingTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07650893BAE8A18672EFB45 /* Pods-HandwritingTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimer/Pods-HandwritingTimer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +128,8 @@
 			children = (
 				7B889461200CF23600B9889E /* AppDelegate.swift */,
 				290A398F20184F5000C32042 /* Resources */,
+				7B889489201DF7E900B9889E /* Models */,
+				7B88948F201E138E00B9889E /* TimerViewModel.swift */,
 				7B889463200CF23600B9889E /* ViewController.swift */,
 				7B889465200CF23600B9889E /* Main.storyboard */,
 				7B889468200CF23600B9889E /* Assets.xcassets */,
@@ -134,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				7B889476200CF23700B9889E /* HandwritingTimerTests.swift */,
+				7B88948D201DF96E00B9889E /* TimerModelTests.swift */,
 				7B889478200CF23700B9889E /* Info.plist */,
 			);
 			path = HandwritingTimerTests;
@@ -148,6 +159,14 @@
 				77F4DB1FBCFC895EF04A1C48 /* Pods_HandwritingTimerTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B889489201DF7E900B9889E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B88948A201DF81700B9889E /* TimerModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B889490201E138E00B9889E /* TimerViewModel.swift in Sources */,
+				7B88948B201DF81700B9889E /* TimerModel.swift in Sources */,
 				7B889464200CF23600B9889E /* ViewController.swift in Sources */,
 				7B889462200CF23600B9889E /* AppDelegate.swift in Sources */,
 			);
@@ -389,7 +410,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B889491201E138E00B9889E /* TimerViewModel.swift in Sources */,
+				7B88948E201DF96E00B9889E /* TimerModelTests.swift in Sources */,
 				7B889477200CF23700B9889E /* HandwritingTimerTests.swift in Sources */,
+				7B88948C201DF81700B9889E /* TimerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
