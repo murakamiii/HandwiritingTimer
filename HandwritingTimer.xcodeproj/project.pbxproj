@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		156B05C8F172CA9FE28620CD /* Pods_HandwritingTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F4DB1FBCFC895EF04A1C48 /* Pods_HandwritingTimerTests.framework */; };
+		290A3993201852B500C32042 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 290A3992201852B500C32042 /* bg.jpg */; };
 		5700B38A97A9F2409A57857D /* Pods_HandwritingTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23ABC2429F27F46B0CC188E /* Pods_HandwritingTimer.framework */; };
 		7B889462200CF23600B9889E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889461200CF23600B9889E /* AppDelegate.swift */; };
 		7B889464200CF23600B9889E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B889463200CF23600B9889E /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		004F41D68F043B3594A43D55 /* Pods-HandwritingTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwritingTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandwritingTimerTests/Pods-HandwritingTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		290A3992201852B500C32042 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		77F4DB1FBCFC895EF04A1C48 /* Pods_HandwritingTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwritingTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88945E200CF23600B9889E /* HandwritingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandwritingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B889461200CF23600B9889E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290A398F20184F5000C32042 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				290A3992201852B500C32042 /* bg.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		385E196EE4135050216A4FBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				7B889461200CF23600B9889E /* AppDelegate.swift */,
+				290A398F20184F5000C32042 /* Resources */,
 				7B889463200CF23600B9889E /* ViewController.swift */,
 				7B889465200CF23600B9889E /* Main.storyboard */,
 				7B889468200CF23600B9889E /* Assets.xcassets */,
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290A3993201852B500C32042 /* bg.jpg in Resources */,
 				7B889488200D004000B9889E /* Settings.bundle in Resources */,
 				7B88946C200CF23600B9889E /* LaunchScreen.storyboard in Resources */,
 				7B889469200CF23600B9889E /* Assets.xcassets in Resources */,
